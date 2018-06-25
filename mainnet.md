@@ -30,6 +30,10 @@ cleos -u http://mainnet.genereos.io system delegatebw nrenaissance nrenaissance 
 ```
 cleos -u http://mainnet.genereos.io system newaccount --stake-net '0.0010 EOS' --stake-cpu '0.0010 EOS' --buy-ram-kbytes 8
 ```
+#####获取ram价格
+```
+cleos -u http://mainnet.genereos.io get table eosio eosio rammarket
+```
 
 --
 
