@@ -46,6 +46,6 @@ cd build/programs/nodeos
 ./nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin 
 ```
 
---
+-
 
 遇到问题可以在公众号评论/或者[github](https://github.com/qs-lll/EosGuide)中提出
