@@ -44,6 +44,8 @@ sudo make install
 cd build/programs/nodeos
 
 ./nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin 
+
+nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin --contracts-console --filter-on "*"
 ```
 
 -- 
