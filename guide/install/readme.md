@@ -48,6 +48,12 @@ cd build/programs/nodeos
 nodeos -e -p eosio --plugin eosio::chain_api_plugin --plugin eosio::history_api_plugin --contracts-console --filter-on "*"
 ```
 
+--
+
+## docker 
+```
+nodeos -e -p eosio     --plugin eosio::producer_plugin     --plugin eosio::history_plugin     --plugin eosio::chain_api_plugin     --plugin eosio::history_api_plugin     --plugin eosio::http_plugin     -d /mnt/dev/data     --config-dir /mnt/dev/config     --http-server-address=0.0.0.0:8888     --access-control-allow-origin=*     --contracts-console     --http-validate-host=false --filter-on "*"
+```
 -- 
 
 遇到问题可以在公众号评论/或者[github](https://github.com/qs-lll/EosGuide)中提出
