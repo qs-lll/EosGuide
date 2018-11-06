@@ -56,4 +56,9 @@ nodeos -e -p eosio     --plugin eosio::producer_plugin     --plugin eosio::histo
 ```
 -- 
 
+## replay
+```
+--replay-blockchain --hard-replay-blockchain
+```
+
 遇到问题可以在公众号评论/或者[github](https://github.com/qs-lll/EosGuide)中提出
